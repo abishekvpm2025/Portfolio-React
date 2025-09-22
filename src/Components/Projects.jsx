@@ -71,7 +71,7 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="py-10 bg-white-200 px-10 ">
+    <section id="projects" className="py-10 bg-white-200 px-10 scroll-mt-20 ">
       <div className="flex flex-col  text-center">
         <div>
           <h1 className=" text-4xl font-bold  ">
@@ -110,16 +110,16 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex  m-5  gap-8 ">
+                <div className="flex  m-5  gap-4  ">
                   <a
-                    className="flex text-slate-800 items-center gap-1    rounded-4xl font-bold  "
+                    className="flex  items-center gap-1   w-30 justify-center bg-slate-400  rounded-4xl font-bold hover:bg-slate-600 "
                     href={pro.githubUrl}
                   >
                     <Github className="w-6 h-6" />
                     Code
                   </a>
                   <a
-                    className="flex gap-1  rounded-4xl text-blue-700 font-bold hover:bg-blue-600 hover:text-white hover:w-35  "
+                    className="flex gap-1  rounded-4xl text-black font-bold bg-blue-400 w-60 h-8 items-center justify-center hover:bg-blue-600  "
                     href={pro.liveUrl}
                   >
                     <ExternalLink className="w-6 h-6" />

@@ -10,7 +10,7 @@ import React from "react";
 
 const Heropage = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex  items-center justify-center flex-col text-center relative ">
+    <section  id="heropage" className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex  items-center justify-center flex-col text-center relative ">
       <h1 className="text-5xl md:text-7xl font-bold mb-5 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent ">
         Hi, I'm Abishek
       </h1>
@@ -34,19 +34,19 @@ const Heropage = () => {
       </div>
       <div className="flex mt-5 gap-7">
         <a
-          href=""
+          href="https://github.com/abishekvpm2025"
           className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
         >
           <GithubIcon />{" "}
         </a>
         <a
-          href=""
+          href="https://www.linkedin.com/in/abishek-r-884668267/"
           className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
         >
           <Linkedin />
         </a>
         <a
-          href=""
+          href="abishekvpm2025@gmail.com"
           className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
         >
           <Mail />

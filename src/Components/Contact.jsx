@@ -10,36 +10,37 @@ import {
 import React from "react";
 
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: <Mail className="w-6 h-6" />,
-      title: "Email",
-      value: "abishek2025@email.com",
-      link: "",
-    },
-    {
-      icon: <Phone className="w-6 h-6" />,
-      title: "Phone",
-      value: "+91975239775",
-      link: "tel:+15551234567",
-    },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: "Tamilnadu",
-      value: "Chennai,vadapalani",
-      link: "#",
-    },
-  ];
+ const contactInfo = [
+  {
+    icon: <Mail className="w-6 h-6" />,
+    title: "Email",
+    value: "abishek2025@email.com",
+    link: "mailto:abishekvpm2025@email.com",  
+  },
+  {
+    icon: <Phone className="w-6 h-6" />,
+    title: "Phone",
+    value: "+91975239775",
+    link: "tel:+91975239775",  
+  },
+  {
+    icon: <MapPin className="w-6 h-6" />,
+    title: "Location",
+    value: "Chennai, Tamilnadu",
+    link: "https://maps.google.com/?q=Chennai,Tamilnadu", 
+  },
+];
+
 
   const socialLInks = [
     {
       icon: <Github className="w-6 h-6" />,
-      url: "",
+      url: "https://github.com/abishekvpm2025",
       color: "hover:text-gray-950",
     },
     {
       icon: <Mail />,
-      url: "",
+      url: "abishekvpm2025@gmail.com",
       color: "hover:text-yellow-600",
     },
     {
@@ -49,12 +50,12 @@ const Contact = () => {
     },
     {
       icon: <Linkedin />,
-      url: "",
+      url: "https://www.linkedin.com/in/abishek-r-884668267/",
       color: "hover:text-red-500",
     },
   ];
   return (
-    <section className="py-20 bg-slate-900 text-white">
+    <section id="contact" className="py-20 bg-slate-900 text-white scroll-mt-20">
       <div>
         <div className="text-center">
           <h1 className="text-5xl font-bold  ">
@@ -82,7 +83,7 @@ const Contact = () => {
 
           <div className="">
             {contactInfo.map((con, inx) => (
-              <a key={inx} className=" gap-5 flex items-center ">
+              <a href={con.link}  key={inx} className=" gap-5 flex items-center ">
                 <div className="w-12 h-12 text-3xl bg-slate-800 flex rounded-xl items-center justify-center  mt-5 hover:scale-110  hover:bg-blue-500  ">
                   {con.icon}
                 </div>
