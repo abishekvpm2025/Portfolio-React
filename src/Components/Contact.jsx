@@ -49,7 +49,7 @@ const Contact = () => {
       color: "hover:text-blue-800",
     },
     {
-      icon: <Linkedin />,
+      icon: <Linkedin/>,
       url: "https://www.linkedin.com/in/abishek-r-884668267/",
       color: "hover:text-red-500",
     },

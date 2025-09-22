@@ -122,7 +122,7 @@ const Projects = () => {
                     className="flex gap-1  rounded-4xl text-black font-bold bg-blue-400 w-60 h-8 items-center justify-center hover:bg-blue-600  "
                     href={pro.liveUrl}
                   >
-                    <ExternalLink className="w-6 h-6" />
+                    <ExternalLink className="w-6 h-6"/>
                     Live Demo
                   </a>
                 </div>

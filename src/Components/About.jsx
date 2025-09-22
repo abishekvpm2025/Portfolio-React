@@ -78,7 +78,7 @@ const About = () => {
                 Hello! I'm{" "}
                 <span className="font-semibold text-gray-900">Abishek </span>,
                 a passionate Computer Science graduate with a love for creating
-                digital solutions. I recently completed my B.Tech and I'm
+                digital solutions. I recently completed my B.Mech and I'm
                 excited to start my journey as a developer.
               </p>
               <p>

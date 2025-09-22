@@ -49,7 +49,7 @@ const Heropage = () => {
           href="abishekvpm2025@gmail.com"
           className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
         >
-          <Mail />
+          <Mail/>
         </a>
       </div>
     </section>

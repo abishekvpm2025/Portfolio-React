@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = () => {
-  // smooth scroll handler
+ 
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
